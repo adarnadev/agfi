@@ -36,7 +36,7 @@ License URI: N/A
 		vertical-align: center;
 		text-decoration: none;
 		color:rgb(102,102,102);
-		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 		font-size:1.2em;
 		border-left:2px solid white;
 	}
@@ -58,10 +58,11 @@ License URI: N/A
 	==============================*/
 	#contentmain{
 		font-size:1em;
-		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	}
 	h3{
 		color:#fbd555;
+		font-size:1.1em;
 	}
 
 

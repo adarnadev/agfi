@@ -10,7 +10,7 @@ get_header(); ?>
 
 <div class="grid-4">
 <a href="<?php bloginfo('url'); ?>"><img style="display:block;margin-top:50px;margin-left:auto;margin-right:auto;"src="<?php bloginfo('template_directory'); ?>/img/agfilogo.png" /></a>
-<img style="display:block;margin-left:auto;margin-right:auto;"src="<?php bloginfo('template_directory'); ?>/img/iwanttohelp.png" />								
+<a href="<?php bloginfo('url'); ?>/help-the-foundation"><img style="display:block;margin-left:auto;margin-right:auto;"src="<?php bloginfo('template_directory'); ?>/img/iwanttohelp.png" /></a>								
 </div>
 <a class="grid-8" href="<?php bloginfo('url'); ?>"><img style="display:block;width:100%;"src="<?php bloginfo('template_directory'); ?>/img/agfiheader.png" /></a>
 
