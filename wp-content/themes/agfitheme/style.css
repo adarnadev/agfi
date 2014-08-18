@@ -1,0 +1,77 @@
+/*
+Theme Name: AGFI
+Theme URI: agfi.com.ph
+Description: Adarna House website theme.
+Author: Adarna House, Inc.
+Author URI: www.adarna.com.ph
+Version: 0.91
+Tags:style
+License: N/A
+License URI: N/A
+*/
+/* Media Queries
+==============================*/
+
+@media only screen and (min-width: 1024px) {
+
+}
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    /* tablets and desktop */
+}
+@media only screen and (max-width: 767px) {
+    /* phones */
+    #navigation li a{border-left:none;border-right:none;}
+}
+
+/* Navbar
+	==============================*/
+	nav li{
+		display:inline;
+
+		
+	}
+	nav li a{
+		display:inline-block;
+		padding:1% 2%;
+		vertical-align: center;
+		text-decoration: none;
+		color:rgb(102,102,102);
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size:1.2em;
+		border-left:2px solid white;
+	}
+	nav li a.last-item{
+		border-right:2px solid white;
+	}
+	nav li a:hover{
+		color:black;
+	}
+	nav{
+	    text-align:center;
+	    position:relative;
+	    background-color:#fbd555;	   
+	}
+	nav ul{
+		margin:0;
+	}
+/* Content Main
+	==============================*/
+	#contentmain{
+		font-size:1em;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	}
+	h3{
+		color:#fbd555;
+	}
+
+
+
+
+.aligncenter{display:block;margin-left:auto;margin-right:auto;}
+.wp-caption p{text-align:center;font-size:15px;font-style: italic;}
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
